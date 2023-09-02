@@ -1,0 +1,255 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    padding: 20px 43px;
+
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #E554731A;
+}
+
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 131px;
+    padding-left: 240px;
+    padding-bottom: 0px;
+    width: 708px;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 0px 14px 240px;
+    width: 634px;
+}
+
+.banner img {
+    width: 635px;
+    height: 800px;
+    margin-left: 800px;
+}
+
+.banner .btn-primary {
+    margin-left: 240px;
+}
+
+/* featured flower section */
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+    margin-bottom: 24px;
+
+
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.flower {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.flower-one img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+
+}
+
+.flower-two img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.flower-three img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.flower-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* discount section */
+.discount {
+    background-color: #E554730D;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.discount-container {
+    margin-top: 230px;
+    margin-left: 395px;
+    margin-bottom: 162px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.pink {
+    color: #E55473;
+}
+
+.flower-img {
+    margin-left: 700px;
+    padding-top: 100px;
+}
+
+/* instagram section */
+.insta-container {
+    text-align: center;
+}
+
+.insta {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+}
+
+.insta-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.insta-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* deal section */
+.deal {
+    background-color: aqua;
+    background-image: url(Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    margin: 128px auto 0px auto;
+    text-align: center;
+    border-radius: 8px;
+
+
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.deal-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -18px;
+
+}
+
+input[type="text"] {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* footer-section */
+footer {
+    background: #111010;
+    width: 100%;
+    height: 449px;
+
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.footer-title span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-details {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
